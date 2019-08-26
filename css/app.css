@@ -1,0 +1,34 @@
+body{
+	scroll-behavior: smooth;
+}
+
+
+.skills{
+	overflow:hidden;
+}
+
+
+.is-fixed{
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: fixed;
+}
+
+.up-home{
+	left: 50%;
+	transform:  translateX(-50%);
+}
+@media screen and (max-width: 768px){
+	.open-nav{
+		display:flex;
+		flex-direction: column;
+		align-items: flex-end;
+		position: absolute;
+		top: 100%;
+		right: 0%;
+		width: 50%;
+		text-align: left;
+	background-color: rgba(0, 0, 0, 0.2);
+		text-transform:capitalize;
+	}
+}
