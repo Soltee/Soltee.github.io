@@ -2,18 +2,40 @@ body{
 	scroll-behavior: smooth;
 }
 
-
-.skills{
-	overflow:hidden;
-}
-
-
 .is-fixed{
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.2);
 	position: fixed;
 }
 
+.simplebar-scrollbar{
+	background-color: lighter(#7f9cf5, 80%);
+}
+/*.simplebar-content{
+	background-color: #fff;
+}
+
+.simplebar-scroll-content{
+	background-color: #fff;
+}
+
+.simplebar-track{
+	background-color: white;
+}*/
+/*.simplebar-content{
+	background-color: #fff;
+}
+
+.simplebar-scroll-content{
+	background-color: #5a67d8;
+}
+.simplebar-scrollbar{
+	background-color: #5a67d8;
+}
+.simplebar-track{
+	background-color: #a3bffa;
+}
+*/
 .up-home{
 	left: 50%;
 	transform:  translateX(-50%);

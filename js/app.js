@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
 	let links = document.querySelector('.links');
 	let nav = document.querySelector('.nav');
 
-	let skills = document.querySelector('.skills');
-	const c = skills.children;
 	menuIcon.addEventListener('click', (e) => {
 		if(links.classList.contains('hidden'))
 		{
