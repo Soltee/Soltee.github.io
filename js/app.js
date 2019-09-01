@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', ()=>{
+window.addEventListener('load', ()=>{
+	document.querySelector('.loading').style.display = "none";
+	
 	let menuIcon = document.querySelector('.menu-icon');
 	let links = document.querySelector('.links');
 	let nav = document.querySelector('.nav');
@@ -14,10 +16,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 		}
 		links.classList.toggle('open-nav');
 	});
-
-
 	
-
 	window.addEventListener('scroll', ()=>{
 		if(window.pageYOffset > 0)
 		{
@@ -31,6 +30,5 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 	});
 
-
-	
+		
 });

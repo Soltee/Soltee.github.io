@@ -2,10 +2,33 @@ body{
 	scroll-behavior: smooth;
 }
 
+
+/*Loading*/
+.outer{
+	position: relative;
+	overflow: hidden;
+}
+.outer .inner{
+	position: absolute;
+	bottom: 0;
+	transition: translateY 1s ease-in-out ;
+	animation: fill 3s ease-in-out infinite;
+}
+
+@keyframes fill {
+	0%{
+		transform: translateY(100%);
+	} 100%{
+		transform: translateY(0);
+	}
+}
+
+/*Nav*/
 .is-fixed{
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.2);
 	position: fixed;
+	padding: 0.25em 3em;
 }
 
 .simplebar-scrollbar{
@@ -40,6 +63,10 @@ body{
 	left: 50%;
 	transform:  translateX(-50%);
 }
+
+.active{
+	border-bottom: 2px solid #667eea;
+}
 @media screen and (max-width: 768px){
 	.open-nav{
 		display:flex;
@@ -48,9 +75,9 @@ body{
 		position: absolute;
 		top: 100%;
 		right: 0%;
-		width: 50%;
+		width: 100%;
 		text-align: left;
-	background-color: rgba(0, 0, 0, 0.2);
+		background-color:#fff;
 		text-transform:capitalize;
 	}
 }
