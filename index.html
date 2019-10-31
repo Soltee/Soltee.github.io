@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/simplebar.css">
 </head>
 <body class="">
-	<div class="absolute loading w-full h-full bg-gray-300 z-20 flex justify-center items-center">
+	<div class="fixed loading w-full h-full bg-gray-300 z-20 flex justify-center items-center">
 		<div class="flex flex-row items-baseline justify-center w-64">
 			<div class="outer bg-gray-400 w-4 h-16 rounded-t-lg rounded-b-lg mr-4">
 				<div class="inner w-4 h-16 bg-indigo-600 rounded-t-lg rounded-b-lg">
@@ -88,12 +88,12 @@
 					</a>
 				</li>
 				<li class="my-2 mr-2">
-					<a class="px-6 py-2  font-semibold border-transparent:hover text-indigo-600 border-b-2 hover:border-indigo-500 text-lg" href="#projects">
+					<a data-scroll class="px-6 py-2  font-semibold border-transparent:hover text-indigo-600 border-b-2 hover:border-indigo-500 text-lg" href="#projects">
 						Projects
 					</a>
 				</li>
 				<li class="my-2 mr-2 lg:mr-0">
-					<a class="px-6 py-2   font-semibold border-transparent:hover text-indigo-600 border-b-2 hover:border-indigo-500 text-lg" href="#about-me">
+					<a data-scroll class="px-6 py-2   font-semibold border-transparent:hover text-indigo-600 border-b-2 hover:border-indigo-500 text-lg" href="#about-me">
 						About-Me
 					</a>
 				</li>
@@ -419,7 +419,7 @@
 					 2019
 			</div>
 			<div class="text-indigo-600">
-				<a href="#header" class="cursor-pointer">
+				<a data-scroll href="#header" class="cursor-pointer">
 					<svg class="h-8 w-8 p-2 text-white font-semibold bg-indigo-600 hover:bg-indigo-500 rounded-full" fill="currentColor"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9 3.828L2.929 9.899 1.515 8.485 10 0l.707.707 7.778 7.778-1.414 1.414L11 3.828V20H9V3.828z"/></svg>
 				</a>
 			</div>
@@ -431,7 +431,14 @@
 
 	<!-- <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script> -->
 	<script src="./js/simplebar.js"></script>
+	<script src="./js/smooth-scroll.polyfills.min.js"></script>
 	<script src="./js/app.js"></script>
+	<script>
+
+		var scroll = new SmoothScroll('a[href*="#"]',{
+		    speed: 400
+		});
+	</script>
 
 </body>
 </html>				
