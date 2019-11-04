@@ -16,19 +16,6 @@ window.addEventListener('load', ()=>{
 		}
 		links.classList.toggle('open-nav');
 	});
-	
-	// window.addEventListener('scroll', ()=>{
-	// 	if(window.pageYOffset > 0)
-	// 	{
-	// 		nav.classList.add('is-fixed');
-	// 	}else if(window.pageYOffset > 100){
-	// 		upHomeIcon.style.display = "block";
-	// 	} else {
-	// 		nav.classList.remove('is-fixed');
-	// 	}
-
-
-	// });
 
 		
 });
