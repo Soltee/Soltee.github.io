@@ -4,7 +4,10 @@
 
 
 /*Loading*/
-
+.loading{
+  transition: opacity 0.2s;
+  opacity: 0;
+}
 .outer{
     position: relative;
     overflow: hidden;
@@ -54,6 +57,17 @@
 .up-home{
 	left: 50%;
 	transform:  translateX(-50%);
+}
+
+.is-fixed{
+  
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  width: 100%;
+  z-index: 10;
 }
 
 .active{
