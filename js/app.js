@@ -1,6 +1,4 @@
 window.addEventListener('load', ()=>{
-	Loading.style.display = "none";
-
 
 	function debounce(func, wait = 20, immediate = true){
 	    var timeout;
@@ -37,21 +35,6 @@ window.addEventListener('load', ()=>{
 	    speed: 400
 	});
 
-	function OpenInNewTabWinBrowser(url) {
-
-	  var win = window.open(url, '_blank');
-	  win.focus();
-	}
-
-	let sectionLinks = document.querySelectorAll('.section-link');
-	for (var i = 0; i < sectionLinks.length; i++) {
-	  sectionLinks[i].addEventListener("click", function() {
-	  if (current.length > 0) { 
-	    current[0].className = current[0].className.replace(" active", "");
-	  }
-	  this.className += " active";
-	  });
-	}
 
 	let topOfNav = nav.offsetTop;
 

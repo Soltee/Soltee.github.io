@@ -5,39 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Soltee</title>
 	<link rel="shortcut icon" type="image/png" href="/img/soltee.png"/>
- 	<link rel="stylesheet" type="text/css" href="./css/tailwind.css">
-	<link rel="stylesheet" type="text/css" href="./css/app.css">
-	<link rel="stylesheet" type="text/css" href="./css/simplebar.css">
+ 	<link rel="stylesheet" type="text/css" href="/css/tailwind.css">
+	<link rel="stylesheet" type="text/css" href="/css/app.css">
+	<link rel="stylesheet" type="text/css" href="/css/simplebar.css">
+	<script>
+		function OpenInNewTabWinBrowser(url) {
+			var win = window.open(url, '_blank');
+			win.focus();
+			console.log(url);
+		}
+	</script>
 </head>
 <body class="">
-	<div class="fixed loading w-full h-full bg-gray-300 z-20 flex justify-center items-center">
-		<div class="flex flex-row items-baseline justify-center w-64">
-	        <div class="outer bg-transparent w-4 h-16 rounded-t-lg rounded-b-lg mr-4">
-	          <div class="inner w-4 h-16 bg-indigo-600 rounded-t-lg rounded-b-lg">
-	          </div>
-	        </div>
-	        <div class="outer bg-transparent w-4 h-20 rounded-t-lg rounded-b-lg mr-4">
-	          <div class="inner2 w-4 h-20 bg-indigo-600 rounded-t-lg rounded-b-lg">
-	          </div>
-	        </div>
-	        <div class="outer bg-transparent w-4 h-24 rounded-t-lg rounded-b-lg mr-4">
-	          <div class="inner3 w-4 h-24 bg-indigo-600 rounded-t-lg rounded-b-lg">
-	          </div>
-	        </div>
-	        <div class="outer bg-transparent w-4 h-16 rounded-t-lg rounded-b-lg mr-4">
-	          <div class="inner4 w-4 h-16 bg-indigo-600 rounded-t-lg rounded-b-lg">
-	          </div>
-	        </div>
-	        <div class="outer bg-transparent w-4 h-20 rounded-t-lg rounded-b-lg mr-4">
-	          <div class="inner5 w-4 h-20 bg-indigo-600 rounded-t-lg rounded-b-lg">
-	          </div>
-	        </div>
-	        <div class="outer bg-transparent w-4 h-24 rounded-t-lg rounded-b-lg">
-	          <div class="inner6 w-4 h-24 bg-indigo-600 rounded-t-lg rounded-b-lg">
-	          </div>
-	        </div>
-	    </div>
-	</div>
 	
 	<header id="header" class="">
 		<nav class="nav relative px-3 py-3  sm:px-8 sm:py-6 md:px-12 md:py-4 lg:px-16 lg:py-2 flex flex-row justify-between items-center">
@@ -131,7 +110,6 @@
 		</div>
 	</header>
 	
-
 	<main id="main" class="main">
 
 		<div id="scroll" data-simplebar class="hover:bg-gray-300 py-6 my-16 ">
@@ -491,29 +469,9 @@
 		</div>
 	</footer>
 
-	<script src="./js/simplebar.js"></script>
-	<script src="./js/smooth-scroll.polyfills.min.js"></script>
-	<script>
-		Loading = document.querySelector('.loading');
-		setTimeout(() => {Loading.style.opacity = 1;}, 100);
-	</script>
-	<script src="./js/app.js"></script>
+	<script src="/js/simplebar.js"></script>
+	<script src="/js/smooth-scroll.polyfills.min.js"></script>
+	<script src="/js/app.js"></script>
 
 </body>
 </html>
-<!-- <div class="fixed loading w-full h-full bg-gray-300 z-20 flex justify-center items-center">
-	<div class="flex flex-row items-baseline justify-center w-64">
-		<div class="outer bg-gray-400 w-4 h-16 rounded-t-lg rounded-b-lg mr-4">
-			<div class="inner w-4 h-16 bg-indigo-600 rounded-t-lg rounded-b-lg">
-			</div>
-		</div>
-		<div class="outer bg-gray-400 w-4 h-20 rounded-t-lg rounded-b-lg mr-4">
-			<div class="inner w-4 h-20 bg-indigo-600 rounded-t-lg rounded-b-lg">
-			</div>
-		</div>
-		<div class="outer bg-gray-400 w-4 h-24 rounded-t-lg rounded-b-lg">
-			<div class="inner w-4 h-24 bg-indigo-600 rounded-t-lg rounded-b-lg">
-			</div>
-		</div>
-	</div>	
-</div>-->				
