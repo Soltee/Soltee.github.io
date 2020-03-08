@@ -51,4 +51,7 @@ window.addEventListener('load', ()=>{
 
 	});
 
+	mediumZoom('[data-zoomable]', {
+		margin: 24
+	});
 });
