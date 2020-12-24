@@ -121,10 +121,10 @@
                 <div class="flex flex-col items-start">
                     <img class="w-64 h-64 lg:hidden object-cover rounded" src="./img/me.png" alt="hero-banner">
                     <h1 class="mt-3 lg:pt-0 lg:text-justify px-2 sm:px-40  lg:px-0 leading-normal text-indigo-700 font-bold text-center leading-normal text-3xl md:text-5xl">
-                        Hi! I'm Prabin Gurung.
+                        Hi! I'm Prabin.
                     </h1>
                     <h2 class="mt-3 lg:pt-0 lg:text-justify px-2 sm:px-40  lg:px-0 leading-normal text-indigo-700 font-semibold text-center leading-normal text-lg md:text-xl">
-                       A full-stack web developer specializing in Laravel , Vue and Tailwind.
+                       A full-stack web developer specializing in Laravel , Vue and TailwindCSS.
                     </h2>
                     <a href="#projects" class="mt-6 px-6 py-3 lg:mr-auto w-56 font-bold uppercase text-lg tracking-wide text-white rounded-lg bg-indigo-700 hover:bg-indigo-600">
                         Check My Work
@@ -214,51 +214,57 @@
             <div class=" p-2 flex flex-col justify-between  mt-8">
                 <div class="flex flex-col md:flex-row justify-between md:items-center mb-16 ">
                     <div class="w-full md:w-1/2 md:order-2">
-                        <img class="" src="/img/invoices.png" alt="invoices" data-zoomable>
+                        <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/soltee/invoices')" href="https://github.com/soltee/invoices">
+                            <img class="" src="/img/invoices.png" alt="invoices">
+                        </a>
                     </div>
                     <div class="flex flex-col mt-3 md:mt-0 md:w-1/2 px-2 md:ml-3">
-                        <a href="https://github/Soltee/Footwear">
+                        <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/soltee/invoices')"
+                            href="https://github.com/soltee/invoices">
                             <h3 class="text-lg md:text-xl lg:text-3xl text-indigo-500  font-semibold  hover:opacity-75">Invoices</h3>
                         </a>
-                        <p class="mt-4 text-gray-800 leading-8 text-lg">Invoice is an client & invoice management system for freelancers built in laravel.</p>
+                        <p class="mt-4 text-gray-800 leading-8 text-lg">Invoice is an client & invoice management system for freelancers built in laravel, vuejs & inertiajs.</p>
                         <div class="flex items-center mt-3">
-                            <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://invoice-freely.herokuapp.com')" href="https://invoice-freely.herokuapp.com" class="  mt-3 w-auto  bg-indigo-600  text-white px-3 py-3 rounded-lg hover:opacity-75 border-b hover:opacity-75 hover:bg-indigo-500 border-transparent hover:border-indigo-500 mr-5  font-semibold">Take a Look</a>
-                            <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/Soltee/Footwear')" href="https://github.com/Soltee/Footwear" class="  mt-3 w-auto  text-indigo-600  hover:opacity-75 border-b border-transparent hover:border-indigo-500  font-semibold">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col md:flex-row justify-between md:items-center mb-16 ">
-                    <div class="w-full md:w-1/2">
-                        <img class="" src="/img/events.png" alt="Events" data-zoomable>
-                    </div>
-                    <div class="flex flex-col mt-3 md:mt-0 md:w-1/2 px-2 md:ml-3">
-                        <a href="https://github/Soltee/talk_events">
-                            <h3 class="text-lg md:text-xl lg:text-3xl text-indigo-500  font-semibold  hover:opacity-75">Talk Events</h3>
-                        </a>
-                        <p class="mt-4 text-gray-800 text-lg leading-8">
-                            Talk_events is a demo event management web app. It let's administrator to add, edit , read and delete events, it's categories, speakers, sponsers, bookings & users. Roles & permissions are also included which let's only the specific user of specific role & permissions to access the page.
-                        </p>
-                        <p class="mt-4 text-gray-800 text-lg leading-8">
-                            Users can login , register , update their profile. They can also book any events( free or paid) using their stripe account and also see their bookings lists.
-                        </p>
-
-                        <div class="flex items-center mt-3">
-                            <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/Soltee/talk_events')" href="https://github.com/Soltee/talk_events" class="  mt-3 w-auto  text-indigo-600  hover:opacity-75 border-b border-transparent hover:border-indigo-500  font-semibold">View Code</a>
+                            <!-- <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://invoice-freely.herokuapp.com')" href="https://invoice-freely.herokuapp.com" class="  mt-3 w-auto  bg-indigo-600  text-white px-3 py-3 rounded-lg hover:opacity-75 border-b hover:opacity-75 hover:bg-indigo-500 border-transparent hover:border-indigo-500 mr-5  font-semibold">Take a Look</a> -->
+                            <!-- <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/soltee/invoices')" href="https://github.com/soltee/invoices" class="  mt-3 w-auto  text-indigo-600  hover:opacity-75 border-b border-transparent hover:border-indigo-500  font-semibold">View Code</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="flex flex-col md:flex-row justify-between md:items-center mb-16 ">
                     <div class="w-full md:w-1/2 md:order-2">
-                        <img class="" src="/img/footwear.png" alt="footwear" data-zoomable>
+                        <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/Soltee/talk_events')"
+                            href="https://github.com/soltee/talk_events">
+                            <img class="" src="/img/events.png" alt="Events">
+                        </a>
                     </div>
                     <div class="flex flex-col mt-3 md:mt-0 md:w-1/2 px-2 md:ml-3">
-                        <a href="https://github/Soltee/Footwear">
+                        <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/Soltee/talk_events')" href="https://github.com/Soltee/talk_events">
+                            <h3 class="text-lg md:text-xl lg:text-3xl text-indigo-500  font-semibold  hover:opacity-75">Talk Events</h3>
+                        </a>
+                        <p class="mt-4 text-gray-800 text-lg leading-8">
+                            Talk_events is a demo event management web app built using Laravel & Livewire components.
+                        </p>
+                        
+
+                        <div class="flex items-center mt-3">
+                            <!-- <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/Soltee/talk_events')" href="https://github.com/Soltee/talk_events" class="  mt-3 w-auto  text-indigo-600  hover:opacity-75 border-b border-transparent hover:border-indigo-500  font-semibold">View Code</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row justify-between md:items-center mb-16 ">
+                    <div class="w-full md:w-1/2 md:order-2">
+                        <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/Soltee/Footwear')" href="https://github.com/Soltee/Footwear">
+                            <img class="" src="/img/footwear.png" alt="footwear">
+                        </a>
+                    </div>
+                    <div class="flex flex-col mt-3 md:mt-0 md:w-1/2 px-2 md:ml-3">
+                        <a  onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/Soltee/Footwear')" href="https://github.com/Soltee/Footwear">
                             <h3 class="text-lg md:text-xl lg:text-3xl text-indigo-500  font-semibold  hover:opacity-75">Footwear</h3>
                         </a>
-                        <p class="mt-4 text-gray-800 leading-8 text-lg">Footwear is an online shoe store that provides vast number of shoes for man, women & baby.</p>
+                        <p class="mt-4 text-gray-800 leading-8 text-lg">Footwear is an online shoe store that provides vast number of shoes for man, women & baby built using Laravel and vueJS</p>
                         <div class="flex items-center mt-3">
-                            <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://my-footwear.herokuapp.com')" href="https://my-footwear.herokuapp.com" class="  mt-3 w-auto  bg-indigo-600  text-white px-3 py-3 rounded-lg hover:opacity-75 border-b hover:opacity-75 hover:bg-indigo-500 border-transparent hover:border-indigo-500 mr-5  font-semibold">Take a Look</a>
-                            <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/Soltee/Footwear')" href="https://github.com/Soltee/Footwear" class="  mt-3 w-auto  text-indigo-600  hover:opacity-75 border-b border-transparent hover:border-indigo-500  font-semibold">View Code</a>
+                            <!-- <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://my-footwear.herokuapp.com')" href="https://my-footwear.herokuapp.com" class="  mt-3 w-auto  bg-indigo-600  text-white px-3 py-3 rounded-lg hover:opacity-75 border-b hover:opacity-75 hover:bg-indigo-500 border-transparent hover:border-indigo-500 mr-5  font-semibold">Take a Look</a> -->
+                            <!-- <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/Soltee/Footwear')" href="https://github.com/Soltee/Footwear" class="  mt-3 w-auto  text-indigo-600  hover:opacity-75 border-b border-transparent hover:border-indigo-500  font-semibold">View Code</a> -->
                         </div>
                     </div>
                 </div>
@@ -285,11 +291,13 @@
         <!--Projects section Ends-->
         <div id="about-me">
         </div>
-        <div class="px-3 py-3  sm:px-8 sm:py-6 md:px-12 md:py-10 lg:px-16 bg-gray-300">
+        <div class="px-3 py-3  sm:px-8 sm:py-6 md:px-12 md:py-10 lg:px-16 ">
             <h1 class="font-bold text-indigo-600 text-left text-xl uppercase tracking-wide">About Me</h1>
             <div class="my-8 flex flex-col sm:flex-row justify-center items-center">
                 <div class="sm:w-1/2 mb-3 sm:mb-0 sm:pr-4 max-w-lg mr-auto">
-                    <p class="text-indigo-700 font-bold text-center leading-normal  text-md md:text-lg  text-justify">I started my journey as a web developer while I was still in high school. I used to spend most of my days coding & watching web dev tutorials which I really enjoyed. It was pretty awesome. So I decided to be a developer focusing both in design & development. My current skills includes Javascript, Jquery, Vue , Tailwind , livewire, inertiajs and Laravel.</p>
+                    <p class="text-indigo-700 font-bold text-center leading-normal  text-md   text-justify">I started my journey while I was still in high school. I used to spend most of my days coding & watching web dev tutorials which I really enjoyed. It was pretty awesome. So I decided to be a developer focusing both in design & development.</p>
+                    <p class="mt-3 text-indigo-700 font-bold text-center leading-normal  text-md   text-justify"> My current skills includes Javascript, Jquery, Vue , TailwindCSS , livewire, inertiajs and Laravel. Building projects is a better way to learn & master my skills, so I have build several projects which covers topics like payments.And some of them are listed above. Please do sure to CHECK THEM OUT. </p>
+
                     <a onclick="event.preventDefault(); OpenInNewTabWinBrowser('https://github.com/soltee');" href="https://github.com/soltee" class="cursor-pointer">
                         <svg class="h-8 w-8 text-indigo-500 mt-3 hover:text-indigo-400" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                             <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" /></svg>
